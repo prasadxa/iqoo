@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="health_show_details">Show data sources</string>
+    <string name="health_hide_details">Hide data sources</string>
+    <string name="health_title">Watch health</string>
+    <string name="health_back">Back</string>
+    <string name="health_close">Close</string>
+    <string name="health_refresh_explanation">Synced readings from Health Connect, not a live monitor.</string>
+    <string name="health_checking">Checking Health Connect…</string>
+    <string name="health_unavailable">Health Connect is unavailable on this device or profile. This screen cannot read watch data here.</string>
+    <string name="health_provider_error">Could not check Health Connect. No health data is shown. Try again or check Health Connect in phone settings.</string>
+    <string name="health_install_explanation">Health Connect needs to be installed, enabled, or updated. After setup, return here and check again.</string>
+    <string name="health_install">Install or update Health Connect</string>
+    <string name="health_permission_explanation">Choose which step and heart-rate records Aasra may read.</string>
+    <string name="health_grant">Connect health data</string>
+    <string name="health_settings">Open Health Connect settings</string>
+    <string name="health_refresh">Check again</string>
+    <string name="health_steps_title">Steps today</string>
+    <string name="health_steps_detail">From midnight in this phone’s time zone. Health Connect combines sources; this may include phone steps, not only your watch.</string>
+    <string name="health_heart_title">Latest heart rate in 24 hours</string>
+    <string name="health_bpm">%1$s beats/min</string>
+    <string name="health_measured_at">Measured: %1$s</string>
+    <string name="health_recent">Recorded within the last 15 minutes. Data age only, not a health assessment.</string>
+    <string name="health_older">More than 15 minutes old. This is not a current reading.</string>
+    <string name="health_clock_mismatch">The record time is ahead of the phone clock. Check the device clocks.</string>
+    <string name="health_sources">Source IDs reported by Health Connect:
+%1$s</string>
+    <string name="health_source_unknown">Source not reported by Health Connect.</string>
+    <string name="health_record_updated">Last Health Connect record update: %1$s</string>
+    <string name="health_record_update_unknown">Health Connect record update time is unavailable.</string>
+    <string name="health_last_checked">Last checked Health Connect: %1$s</string>
+    <string name="health_sync_explanation">The record update time is not a confirmed watch sync time. Sync timing depends on the companion app; checking again cannot force a watch sync.</string>
+    <string name="health_timestamp">%1$s (%2$s)</string>
+    <string name="health_permission_required">Read permission not granted. No data has been read for this metric.</string>
+    <string name="health_permission_revoked">Read access was removed. Previously shown values are hidden. You can allow access again in Health Connect.</string>
+    <string name="health_no_data">No shared records in this time window. This does not mean a zero reading. Sync your companion app and check its Health Connect sharing settings.</string>
+    <string name="health_read_error">Could not read this metric. No cached value is shown. Check Health Connect and try again later.</string>
+    <string name="health_action_error">Could not open that screen. Open Health Connect from phone settings, or find it in Google Play, then return here.</string>
+    <string name="health_watch_title">Using a Noise or realme watch</string>
+    <string name="health_watch_explanation">Keep your watch paired in its official companion app. That app must support writing steps and heart rate to Health Connect, with sharing enabled. Support varies by watch, app version, and region; Noise and realme compatibility is not verified here. Google Fit support alone does not confirm Health Connect sharing. Aasra does not pair with the watch over Bluetooth.</string>
+    <string name="health_medical_notice">Not for diagnosis or emergencies. Seek medical help when needed.</string>
+    <string name="health_privacy_title">Health data privacy</string>
+    <string name="health_privacy_purpose">Aasra requests read-only access to steps and heart rate in Health Connect to display today’s steps and the latest heart-rate sample from the last 24 hours. Each metric is read only after you grant its permission. You can use the rest of Aasra without granting access.</string>
+    <string name="health_privacy_storage">This integration keeps health values in memory only while the health screen is active. It does not save health records, log them, upload them, or pass them to Aasra’s voice, AI, or cloud services. It saves only whether each permission was previously granted, to explain removed access. Original records remain with Health Connect and the apps that created them.</string>
+    <string name="health_privacy_control">Checks stop when you leave the screen or the app is not active. You can remove Aasra’s access or manage original records in Health Connect settings at any time. Aasra does not write or delete health records. Installing Health Connect opens Google Play; no health values are included in that link.</string>
+</resources>

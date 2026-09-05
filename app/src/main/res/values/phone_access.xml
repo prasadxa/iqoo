@@ -1,0 +1,7 @@
+<resources>
+    <string name="phone_access_explanation">Allow phone contacts and calling, then ask Aasra to call a name. If there are several numbers, Aasra asks which one. Phone contacts are not added to SOS automatically.</string>
+    <string name="phone_access_allow">Enable contacts and calls</string>
+    <string name="phone_access_ready">Phone contacts and calling are enabled.</string>
+    <string name="phone_access_sms">Enable text messages</string>
+    <string name="phone_access_denied">Permission was not granted. Try again or allow it in App permissions, then repeat your request.</string>
+</resources>

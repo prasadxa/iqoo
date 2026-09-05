@@ -1,0 +1,6 @@
+.worktrees/
+local.properties
+*.iml
+.gradle/
+build/
+local_defaults.properties

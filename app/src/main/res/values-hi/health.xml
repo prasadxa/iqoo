@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="health_show_details">आँकड़ों के स्रोत दिखाएँ</string>
+    <string name="health_hide_details">आँकड़ों के स्रोत छिपाएँ</string>
+    <string name="health_title">घड़ी के स्वास्थ्य आँकड़े</string>
+    <string name="health_back">वापस</string>
+    <string name="health_close">बंद करें</string>
+    <string name="health_refresh_explanation">Health Connect से सिंक किए आँकड़े। यह लाइव निगरानी नहीं है।</string>
+    <string name="health_checking">Health Connect की जाँच हो रही है…</string>
+    <string name="health_unavailable">इस डिवाइस या प्रोफ़ाइल पर Health Connect उपलब्ध नहीं है। यहाँ घड़ी के आँकड़े नहीं पढ़े जा सकते।</string>
+    <string name="health_provider_error">Health Connect की जाँच नहीं हो सकी। कोई स्वास्थ्य आँकड़ा नहीं दिखाया गया है। फिर कोशिश करें या फ़ोन की सेटिंग में Health Connect देखें।</string>
+    <string name="health_install_explanation">Health Connect को इंस्टॉल, चालू या अपडेट करना होगा। सेटअप के बाद यहाँ लौटकर फिर जाँचें।</string>
+    <string name="health_install">Health Connect इंस्टॉल या अपडेट करें</string>
+    <string name="health_permission_explanation">चुनें कि आसरा कदम और हृदय गति के कौन से रिकॉर्ड पढ़ सके।</string>
+    <string name="health_grant">सेहत के आँकड़े जोड़ें</string>
+    <string name="health_settings">Health Connect की सेटिंग खोलें</string>
+    <string name="health_refresh">फिर जाँचें</string>
+    <string name="health_steps_title">आज के कदम</string>
+    <string name="health_steps_detail">फ़ोन के समय क्षेत्र में आधी रात से गिनती। Health Connect अलग-अलग स्रोतों को जोड़ता है; इसमें घड़ी के साथ फ़ोन के कदम भी हो सकते हैं।</string>
+    <string name="health_heart_title">24 घंटे में सबसे नई हृदय गति</string>
+    <string name="health_bpm">%1$s धड़कन/मिनट</string>
+    <string name="health_measured_at">मापने का समय: %1$s</string>
+    <string name="health_recent">पिछले 15 मिनट में दर्ज हुआ। यह सिर्फ़ आँकड़े की उम्र है, स्वास्थ्य का आकलन नहीं।</string>
+    <string name="health_older">15 मिनट से अधिक पुराना। यह अभी की रीडिंग नहीं है।</string>
+    <string name="health_clock_mismatch">रिकॉर्ड का समय फ़ोन की घड़ी से आगे है। डिवाइसों का समय जाँचें।</string>
+    <string name="health_sources">Health Connect द्वारा बताई गई स्रोत आईडी:
+%1$s</string>
+    <string name="health_source_unknown">Health Connect ने स्रोत नहीं बताया।</string>
+    <string name="health_record_updated">Health Connect में रिकॉर्ड का आखिरी अपडेट: %1$s</string>
+    <string name="health_record_update_unknown">Health Connect में रिकॉर्ड के अपडेट का समय उपलब्ध नहीं है।</string>
+    <string name="health_last_checked">Health Connect की आखिरी जाँच: %1$s</string>
+    <string name="health_sync_explanation">रिकॉर्ड के अपडेट का समय घड़ी के सिंक होने की पुष्टि नहीं है। सिंक का समय साथी ऐप पर निर्भर करता है; दोबारा जाँचने से घड़ी का सिंक शुरू नहीं होता।</string>
+    <string name="health_timestamp">%1$s (%2$s)</string>
+    <string name="health_permission_required">पढ़ने की अनुमति नहीं मिली है। इस आँकड़े को नहीं पढ़ा गया है।</string>
+    <string name="health_permission_revoked">पढ़ने की अनुमति हटा दी गई है। पहले के आँकड़े छिपा दिए गए हैं। Health Connect में फिर से अनुमति दे सकते हैं।</string>
+    <string name="health_no_data">इस समय अवधि में साझा रिकॉर्ड नहीं हैं। इसका मतलब शून्य रीडिंग नहीं है। साथी ऐप को सिंक करें और उसकी Health Connect साझाकरण सेटिंग जाँचें।</string>
+    <string name="health_read_error">यह आँकड़ा नहीं पढ़ा जा सका। कोई पुराना आँकड़ा नहीं दिखाया गया है। Health Connect जाँचें और बाद में फिर कोशिश करें।</string>
+    <string name="health_action_error">वह स्क्रीन नहीं खुल सकी। फ़ोन की सेटिंग में Health Connect खोलें या Google Play में खोजें, फिर यहाँ लौटें।</string>
+    <string name="health_watch_title">Noise या realme घड़ी का उपयोग</string>
+    <string name="health_watch_explanation">घड़ी को उसके आधिकारिक साथी ऐप से जोड़े रखें। उस ऐप में Health Connect पर कदम और हृदय गति लिखने की सुविधा और साझा करने की अनुमति होनी चाहिए। सुविधा घड़ी, ऐप के संस्करण और क्षेत्र पर निर्भर करती है; यहाँ Noise और realme की अनुकूलता की पुष्टि नहीं हुई है। सिर्फ़ Google Fit की सुविधा होना Health Connect में साझा होने की पुष्टि नहीं है। Aasra घड़ी को Bluetooth से नहीं जोड़ता।</string>
+    <string name="health_medical_notice">निदान या आपातकाल के लिए नहीं। ज़रूरत होने पर चिकित्सा सहायता लें।</string>
+    <string name="health_privacy_title">स्वास्थ्य आँकड़ों की गोपनीयता</string>
+    <string name="health_privacy_purpose">आज के कदम और पिछले 24 घंटे की सबसे नई हृदय गति दिखाने के लिए Aasra Health Connect में केवल पढ़ने की अनुमति माँगता है। हर आँकड़ा उसकी अनुमति मिलने के बाद ही पढ़ा जाता है। बिना अनुमति दिए भी आप Aasra की बाकी सुविधाएँ इस्तेमाल कर सकते हैं।</string>
+    <string name="health_privacy_storage">स्वास्थ्य स्क्रीन सक्रिय रहने तक ही आँकड़े मेमोरी में रहते हैं। यह सुविधा स्वास्थ्य रिकॉर्ड सेव, लॉग या अपलोड नहीं करती और उन्हें Aasra की आवाज़, AI या क्लाउड सेवाओं को नहीं भेजती। अनुमति हटने की जानकारी देने के लिए केवल यह सेव होता है कि पहले अनुमति मिली थी या नहीं। मूल रिकॉर्ड Health Connect और उन्हें बनाने वाले ऐप में रहते हैं।</string>
+    <string name="health_privacy_control">स्क्रीन छोड़ने या ऐप के सक्रिय न रहने पर जाँच रुक जाती है। Health Connect की सेटिंग में कभी भी Aasra की अनुमति हटा सकते हैं या मूल रिकॉर्ड प्रबंधित कर सकते हैं। Aasra स्वास्थ्य रिकॉर्ड लिखता या मिटाता नहीं है। Health Connect इंस्टॉल करने के लिए Google Play खुलता है; उस लिंक में कोई स्वास्थ्य आँकड़ा नहीं जाता।</string>
+</resources>

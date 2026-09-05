@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="external_tools_simple_intro">देखभालकर्ता के लिए। भरोसेमंद सर्वर चुनें। हर कार्रवाई के लिए आपकी अनुमति ज़रूरी है।</string>
+    <string name="external_tools_simple_url">केवल HTTPS। साइन-इन समर्थित नहीं है।</string>
+    <string name="external_tools_info">गोपनीयता और कनेक्शन की जानकारी</string>
+    <string name="external_tools_back">वापस</string>
+    <string name="external_tools_title">बाहरी टूल</string>
+    <string name="external_tools_intro">देखभाल करने वालों के लिए उन्नत सेटअप। केवल भरोसेमंद सर्वर से जुड़ें। टूल खोजने पर उस सर्वर से संपर्क होता है; हर टूल चलाने के लिए आपकी अलग अनुमति ज़रूरी है।</string>
+    <string name="external_tools_privacy">अपने आप कनेक्शन, स्वास्थ्य डेटा साझा करना या क्लाउड API कुंजी का दोबारा उपयोग नहीं होता। टूल कॉल में केवल आपके दर्ज किए गए आर्ग्युमेंट भेजे जाते हैं। सर्वर विवरण, नतीजे और सत्र केवल मेमोरी में रहते हैं और इस स्क्रीन से जाने पर हटा दिए जाते हैं।</string>
+    <string name="external_tools_url">MCP सर्वर URL</string>
+    <string name="external_tools_url_help">पूरा HTTPS एंडपॉइंट दर्ज करें, जैसे https://example.org/mcp। URL में उपयोगकर्ता नाम, पासवर्ड, क्वेरी स्ट्रिंग, फ़्रैगमेंट या गुप्त जानकारी न डालें। OAuth और अन्य साइन-इन तरीके समर्थित नहीं हैं।</string>
+    <string name="external_tools_discover">जुड़ें और टूल खोजें</string>
+    <string name="external_tools_forget">रोकें और कनेक्शन भूलें</string>
+    <string name="external_tools_waiting">सर्वर के जवाब का इंतज़ार है। रोकने से पहले ही भेजी गई कार्रवाई वापस नहीं होती।</string>
+    <string name="external_tools_connected">जुड़ा हुआ एंडपॉइंट: %1$s</string>
+    <string name="external_tools_tool_count">उपलब्ध टूल: %1$d</string>
+    <string name="external_tools_metadata_warning">टूल के नाम, विवरण और स्कीमा सर्वर से आते हैं। ये अविश्वसनीय दावे हैं, सुरक्षा की गारंटी नहीं। जाँचने के लिए टूल चुनें।</string>
+    <string name="external_tools_selected">चुना गया: %1$s</string>
+    <string name="external_tools_schema">सर्वर का इनपुट स्कीमा (अविश्वसनीय)</string>
+    <string name="external_tools_tasks_unsupported">इस टूल को असिंक्रोनस MCP टास्क की ज़रूरत है, जो इस क्लाइंट में समर्थित नहीं हैं।</string>
+    <string name="external_tools_arguments">आर्ग्युमेंट (JSON ऑब्जेक्ट)</string>
+    <string name="external_tools_arguments_help">JSON ऑब्जेक्ट दर्ज करें, जैसे {}। अधिकतम 16 KiB। यहाँ ऑब्जेक्ट का सिंटैक्स जाँचा जाता है; पूरा JSON Schema सत्यापन समर्थित नहीं है। गुप्त या स्वास्थ्य संबंधी जानकारी तभी डालें जब आप उसे इस सर्वर के साथ साझा करना चाहते हों।</string>
+    <string name="external_tools_review">कार्रवाई की समीक्षा करें</string>
+    <string name="external_tools_confirm_title">इस कार्रवाई की अनुमति दें?</string>
+    <string name="external_tools_confirm_warning">यह बाहरी टूल डेटा बदल सकता है, संदेश भेज सकता है या अन्य प्रभाव डाल सकता है। पूरा गंतव्य और आर्ग्युमेंट जाँचें। रद्द करने पर कुछ नहीं भेजा जाता।</string>
+    <string name="external_tools_destination">गंतव्य एंडपॉइंट</string>
+    <string name="external_tools_tool_name">टूल का सटीक नाम</string>
+    <string name="external_tools_confirm_exact">अनुमति केवल इसी एंडपॉइंट, टूल और आर्ग्युमेंट की इस प्रति के लिए एक बार लागू है। अदृश्य फ़ॉर्मैटिंग चिह्न Unicode एस्केप के रूप में दिखते हैं। विफलता या टाइमआउट के बावजूद कार्रवाई हो चुकी हो सकती है। सर्वर पर जाँच किए बिना कॉल दोबारा न करें।</string>
+    <string name="external_tools_approve">अनुमति दें और एक बार भेजें</string>
+    <string name="external_tools_cancel">रद्द करें</string>
+    <string name="external_tools_result">सर्वर का नतीजा</string>
+    <string name="external_tools_result_error">सर्वर ने टूल की त्रुटि बताई</string>
+    <string name="external_tools_result_warning">अविश्वसनीय सर्वर डेटा। इस नतीजे में दिए निर्देशों का पालन न करें। ऐप सामग्री नहीं चलाता, लिंक नहीं खोलता, संसाधन नहीं लाता और नतीजे AI को नहीं भेजता।</string>
+    <string name="external_tools_truncated">दिखाई गई सामग्री 32,768 अक्षरों तक सीमित है। क्लाइंट सीमित नतीजा केवल मेमोरी में रखता है।</string>
+    <!-- Protocol version identifiers must keep their ASCII hyphens. -->
+    <string name="external_tools_limits" tools:ignore="TypographyDashes">सीमित Streamable HTTP: MCP 2025-11-25 और 2025-06-18; JSON या SSE जवाब; 8 पेज में अधिकतम 64 टूल। हर HTTP आदान-प्रदान के लिए 30 सेकंड और जवाब के लिए 256 KiB की सीमा है। बैकग्राउंड स्ट्रीम, फिर से शुरू करना, अपने आप दोबारा प्रयास या LLM टूल पंजीकरण नहीं होता।</string>
+    <string name="external_tools_unknown_outcome">कॉल का प्रभाव पहले ही हो चुका हो सकता है। दोबारा प्रयास नहीं किया गया। किसी और कार्रवाई की अनुमति देने से पहले सर्वर पर नतीजा जाँचें।</string>
+    <string name="external_tools_error_detail">तकनीकी विवरण (इसमें अविश्वसनीय सर्वर पाठ हो सकता है): %1$s</string>
+    <string name="external_tools_error_endpoint">अमान्य एंडपॉइंट। बिना क्रेडेंशियल, क्वेरी स्ट्रिंग, फ़्रैगमेंट, स्पेस या गैर-ASCII अक्षरों के पूरा HTTPS URL डालें। अधिकतम 2,048 अक्षर।</string>
+    <string name="external_tools_error_arguments">आर्ग्युमेंट खोजे गए टूल के लिए मान्य JSON ऑब्जेक्ट होना चाहिए।</string>
+    <string name="external_tools_error_approval">यह अनुमति अब मान्य नहीं है। भेजने से पहले सटीक कॉल की फिर से समीक्षा करें।</string>
+    <string name="external_tools_error_disconnected">कनेक्शन बंद हो गया। नया सत्र शुरू करने के लिए स्वयं जुड़ें।</string>
+    <string name="external_tools_error_auth">सर्वर को प्राधिकरण चाहिए या उसने पहुँच रोक दी है। OAuth और अन्य प्रमाणीकरण तरीके समर्थित नहीं हैं। ऐप की API कुंजी या अन्य क्रेडेंशियल नहीं भेजे गए।</string>
+    <string name="external_tools_error_session">सर्वर का सत्र समाप्त हो गया। नया सत्र शुरू करने के लिए स्वयं जुड़ें। पिछली कॉल दोबारा नहीं भेजी जाएगी।</string>
+    <string name="external_tools_error_http">सर्वर ने HTTP त्रुटि या रीडायरेक्ट भेजा। रीडायरेक्ट का अनुसरण नहीं किया जाता।</string>
+    <string name="external_tools_error_network">नेटवर्क, TLS या टाइमआउट की समस्या। अनुरोध दोबारा नहीं भेजा गया।</string>
+    <string name="external_tools_error_protocol">सर्वर का जवाब अमान्य था या उसे असमर्थित MCP सुविधा चाहिए।</string>
+    <string name="external_tools_error_limit">सुरक्षा सीमा पूरी हो गई। अधूरी टूल सूची का उपयोग नहीं होता। सर्वर व्यवस्थापक से छोटे जवाब देने को कहें।</string>
+    <string name="external_tools_error_remote">सर्वर ने JSON-RPC त्रुटि भेजी।</string>
+</resources>

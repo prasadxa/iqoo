@@ -1,0 +1,7 @@
+<resources>
+    <string name="phone_access_explanation">फ़ोन के संपर्कों और कॉल की अनुमति देकर नाम से कॉल करने को कहें। कई नंबर मिलने पर आसरा आपसे नंबर पूछेगा। फ़ोन के संपर्क अपने आप SOS में नहीं जुड़ते।</string>
+    <string name="phone_access_allow">संपर्क और कॉल चालू करें</string>
+    <string name="phone_access_ready">फ़ोन के संपर्क और कॉल चालू हैं।</string>
+    <string name="phone_access_sms">SMS की अनुमति दें</string>
+    <string name="phone_access_denied">अनुमति नहीं मिली। फिर कोशिश करें या ऐप की अनुमतियों में चालू करें, फिर अपना अनुरोध दोहराएँ।</string>
+</resources>

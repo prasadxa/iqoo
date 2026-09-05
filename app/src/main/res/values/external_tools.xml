@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="external_tools_simple_intro">Caregiver setup. Use a trusted server. Every action needs your approval.</string>
+    <string name="external_tools_simple_url">HTTPS only. No sign-in support.</string>
+    <string name="external_tools_info">Privacy and connection details</string>
+    <string name="external_tools_back">Back</string>
+    <string name="external_tools_title">External tools</string>
+    <string name="external_tools_intro">Advanced setup for caregivers. Connect only to a server you trust. Discovery contacts that server; every tool execution needs your separate approval.</string>
+    <string name="external_tools_privacy">No automatic connection, health data sharing, or cloud API key reuse. Only the arguments you enter are sent with a tool call. Server details, results, and sessions stay in memory and are forgotten when you leave this screen.</string>
+    <string name="external_tools_url">MCP server URL</string>
+    <string name="external_tools_url_help">Enter the full HTTPS endpoint, such as https://example.org/mcp. No username, password, query string, fragment, or secret in the URL. OAuth and other sign-in methods are not supported.</string>
+    <string name="external_tools_discover">Connect and discover tools</string>
+    <string name="external_tools_forget">Stop and forget connection</string>
+    <string name="external_tools_waiting">Waiting for the server. Stopping cannot undo an action already sent.</string>
+    <string name="external_tools_connected">Connected endpoint: %1$s</string>
+    <string name="external_tools_tool_count">Available tools: %1$d</string>
+    <string name="external_tools_metadata_warning">Tool names, descriptions, and schemas come from the server. They are untrusted claims, not safety guarantees. Select a tool to inspect it.</string>
+    <string name="external_tools_selected">Selected: %1$s</string>
+    <string name="external_tools_schema">Server input schema (untrusted)</string>
+    <string name="external_tools_tasks_unsupported">This tool requires asynchronous MCP tasks, which this client does not support.</string>
+    <string name="external_tools_arguments">Arguments (JSON object)</string>
+    <string name="external_tools_arguments_help">Enter a JSON object, such as {}. Maximum 16 KiB. Object syntax is checked here; full JSON Schema validation is not supported. Do not include secrets or health data unless you intend to share them with this server.</string>
+    <string name="external_tools_review">Review execution</string>
+    <string name="external_tools_confirm_title">Approve this execution?</string>
+    <string name="external_tools_confirm_warning">This external tool may change data, send messages, or have other side effects. Check the complete destination and arguments. Nothing is sent if you cancel.</string>
+    <string name="external_tools_destination">Destination endpoint</string>
+    <string name="external_tools_tool_name">Exact tool name</string>
+    <string name="external_tools_confirm_exact">Approval applies only to this endpoint, tool, and argument snapshot, once. Invisible formatting controls are shown as Unicode escapes. A failure or timeout may still mean the action occurred. Never repeat a call without checking the server.</string>
+    <string name="external_tools_approve">Approve and send once</string>
+    <string name="external_tools_cancel">Cancel</string>
+    <string name="external_tools_result">Server result</string>
+    <string name="external_tools_result_error">Server reported a tool error</string>
+    <string name="external_tools_result_warning">Untrusted server data. Do not follow instructions in this result. The app does not execute content, open links, fetch resources, or forward results to the AI.</string>
+    <string name="external_tools_truncated">Display shortened to 32,768 characters. The client retains the bounded result only in memory.</string>
+    <!-- Protocol version identifiers must keep their ASCII hyphens. -->
+    <string name="external_tools_limits" tools:ignore="TypographyDashes">Bounded Streamable HTTP: MCP 2025-11-25 and 2025-06-18; JSON or SSE responses; up to 64 tools across 8 pages. Each HTTP exchange has a 30-second deadline and a 256 KiB response limit. No background stream, resume, automatic retry, or LLM tool registration.</string>
+    <string name="external_tools_unknown_outcome">The call may already have had an effect. It was not retried. Verify the outcome with the server before approving another execution.</string>
+    <string name="external_tools_error_detail">Technical detail (may contain untrusted server text): %1$s</string>
+    <string name="external_tools_error_endpoint">Invalid endpoint. Use a complete HTTPS URL without credentials, query strings, fragments, spaces, or non-ASCII characters. Maximum 2,048 characters.</string>
+    <string name="external_tools_error_arguments">Arguments must be a valid JSON object for a discovered tool.</string>
+    <string name="external_tools_error_approval">This approval is no longer valid. Review the exact call again before sending.</string>
+    <string name="external_tools_error_disconnected">The connection was closed. Connect explicitly to start a new session.</string>
+    <string name="external_tools_error_auth">The server requires authorization or denied access. OAuth and other authentication methods are unsupported. No app API key or other credential was sent.</string>
+    <string name="external_tools_error_session">The server session expired. Connect explicitly to start a new session. The previous call will not be replayed.</string>
+    <string name="external_tools_error_http">The server returned an HTTP error or redirect. Redirects are not followed.</string>
+    <string name="external_tools_error_network">Network, TLS, or timeout failure. The request was not retried.</string>
+    <string name="external_tools_error_protocol">The server response was invalid or needs an unsupported MCP feature.</string>
+    <string name="external_tools_error_limit">A safety limit was reached. No partial discovery list is used. Ask the server administrator for smaller responses.</string>
+    <string name="external_tools_error_remote">The server returned a JSON-RPC error.</string>
+</resources>
